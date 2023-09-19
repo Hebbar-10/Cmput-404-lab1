@@ -1,0 +1,35 @@
+Question 1: What is your GitHub URL?
+https://github.com/Hebbar-10
+
+Question 2: What version is the requests library installed on the system? Is there none at all? Or is it already installed?
+2.30.0
+
+Question 3: Is requests installed? If so, what version is the requests library installed in the virtualenv?
+2.31.0
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+The virtual environment installed the latest version of the requests library, however, the non virtual environment python displays the systems installed version of the requests library.
+
+Question 5: What status code is returned for http://google.com? What URL must you visit to get a 200 status code?
+HTTP/1.1 301 Moved Permanently
+https://www.google.com
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 418 I'm a Teapot
+
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+<DT> CONTENT_LENGTH <DD> 3 (in -X POST)
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded (in -X POST)
+The -X POST option in a curl command specifies that the HTTP request should use the POST method, which is used to send data to a server to create or update a resource.
+
+
+Question 8: What is the raw URL to your Python script on GitHub?
+https://github.com/Hebbar-10/Cmput-404-lab1
+
+
+
+
+
